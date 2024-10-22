@@ -1,0 +1,29 @@
+# ====================
+# | Model parameters |
+# ====================
+
+# Continuous equation parameters
+ &PARM01
+ &
+
+# Elliptic solver parameters
+ &PARM02
+ &
+
+# Time stepping parameters
+ &PARM03
+ &
+
+# Gridding parameters
+ &PARM04
+ usingSphericalPolarGrid=.TRUE.,
+ delX=360*0.1,
+ delY=360*0.0625,
+ xgOrigin=128,
+ ygOrigin=23,
+ &
+
+# Input datasets
+ &PARM05
+ bathyFile = 'Japan_Pacific_bathymetry.bin',
+ &
