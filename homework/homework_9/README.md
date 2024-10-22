@@ -1,3 +1,5 @@
+# CS 185C Fall 2024
+
 How does tsunamis behave as they traverse different seafloor topographies?
 
 In this project, I will investigate the behavior of tsunamis as they traverses across different seafloor topographies. In particular, I will investigate the changes in the tsunami's speed and amplitude as it approaches the coast of Japan versus when it heads off into the deep Pacific Ocean. I will construct a model that encloses the coast of Japan, including the Sea of Japan, and a portion of the Pacific Ocean. I expect the tsunami to travels significantly slower but appears larger in amplitude as it approaches shores and the opposite for a tsunami that heads into deeper waters in the direction of the Pacific Ocean. I expect these results because the continental shelf and slope should exerts a frictional force on the incoming tsunami that forces it to slow down. 
