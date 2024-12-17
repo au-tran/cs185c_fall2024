@@ -6,21 +6,21 @@
 # Example of a 2d field output in 5-min snapshots
 #--
   fields(1,1) = 'ETAN    ',
-  fileName(1) = 'diags/EtaN_day_snap/EtaN__snap',
+  fileName(1) = 'diags/EtaN_5min_snap/EtaN_snap',
   frequency(1) =  -300.,
 #  
 #-- 
 # Example of a 2d field output in 5-min means
 #--
   fields(1,2) = 'ETAN    ',
-  fileName(2) = 'diags/EtaN_mon_mean/EtaN_mon_mean',
+  fileName(2) = 'diags/EtaN_5min_mean/EtaN_mean',
   frequency(2) =  300.,
 #
 #-- 
-# Example of 3d fields output in 5-min shapshots
+# Example of 3d fields output in 5-min snapshots
 #--
   fields(1:2,3) = 'UVEL    ','VVEL    ',
-  fileName(3) = 'diags/vel_3D_mon_snap/vel_3D_mon_snap',
+  fileName(3) = 'diags/vel_5min_snap/vel_snap',
   frequency(3) = -300.,
 #
 #-- 
@@ -28,7 +28,7 @@
 # Example of 3d fields output in monthly means
 #--
   fields(1:2,4) = 'UVEL   ','VVEL    ',
-  fileName(4) = 'diags/vel_3D_mon_mean/vel_3D_mon_mean',
+  fileName(4) = 'diags/vel_5min_mean/vel_mean',
   frequency(4) = 300.,
 #
 #-- 

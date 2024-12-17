@@ -26,9 +26,9 @@
 # Time stepping parameters
  &PARM03
  niter0=0,
- deltaT=300.,
- nTimeSteps = 288,
- pChkptFreq=2592000.,
+ deltaT=1200.,
+ nTimeSteps = 72,
+ pChkptFreq=14440.,
  dumpInitAndLast=.FALSE.,
  writePickupAtEnd=.TRUE.,
  &
@@ -51,10 +51,9 @@
 
 # Input datasets
  &PARM05
- usingSphericalPolarGrid=.TRUE.,
  bathyFile = 'Japan_Pacific_bathymetry.bin',
- hydrogThetaFile ='THETA_IC.bin',
- hydrogSaltFile = 'SALT_IC.bin', 
+# hydrogThetaFile ='THETA_IC.bin',
+# hydrogSaltFile = 'SALT_IC.bin', 
  uVelInitFile = 'UVEL_IC.bin', 
  vVelInitFile = 'VVEL_IC.bin',
  pSurfInitFile = 'ETAN_IC.bin',

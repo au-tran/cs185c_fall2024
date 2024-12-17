@@ -42,7 +42,7 @@
  &
 
  &OBCS_PARM03
- spongeThickness = 10,
+ spongeThickness = 5,
  Urelaxobcsinner = 1296000.E0,
  Vrelaxobcsinner = 1296000.E0,
  Urelaxobcsbound=43200.E0,
